@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<div class="card">
+    <h5 class="card-header">Lista de Livros</h5>
+    <div class="card-body">
+        <table class="table-bordered" id="tabelaLivros">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Titulo</th>
+                    <th>Ano</th>
+                    <th>Autor</th>
+                    <th>Editora</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/views/livro/livro-index.js"></script>
+}

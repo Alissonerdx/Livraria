@@ -1,0 +1,6 @@
+﻿"strict"
+
+$(document).ready(function () {
+
+
+});
